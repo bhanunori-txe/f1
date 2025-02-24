@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: white;
+    padding: 20px;
+}
+
+header {
+    background-color: #111;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 3px solid #c8102e; /* Red border for a sleek effect */
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #c8102e; /* Red color */
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #c8102e; /* Red color */
+}
+
+#schedule .race, 
+#drivers .driver, 
+#race-results .race-result {
+    background-color: #1c1c1c;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+#schedule .race h3, 
+#drivers .driver h3, 
+#race-results .race-result h3 {
+    font-size: 1.6rem;
+    color: #c8102e; /* Red color for headings */
+}
+
+#schedule .race p,
+#drivers .driver p,
+#race-results .race-result p {
+    font-size: 1rem;
+    color: #ddd;
+}
+
+#drivers .driver {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+#drivers .driver h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+#drivers .driver p {
+    margin: 5px 0;
+}
+
+/*#drivers .driver img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}*/
+
+
+ul {
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #111;
+    color: white;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
